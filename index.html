@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>มุกสั้น: แจ็คพอต vs แบต 1%</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #4b79a1, #2c3e50);
+      color: #fff;
+    }
+    .comic {
+      max-width: 400px;
+      background: white;
+      color: black;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+      font-size: 18px;
+      line-height: 1.6;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .panel {
+      border-bottom: 1px solid #ddd;
+      padding: 12px 0;
+    }
+    .panel:last-child {
+      border: none;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="comic">
+    <div class="panel">📱 แจ็คพอต: “วันนี้ต้องแตกแน่!”</div>
+    <div class="panel">🔋 แบต 1%: “ฮึบ… จะดับก่อนมั้ย”</div>
+    <div class="panel">💥 มือถือ: *ปิดเครื่องไปเฉยๆ*</div>
+    <div class="panel">😂 คนเล่น: “โอ้ยยย!!”</div>
+  </div>
+</body>
+</html>
